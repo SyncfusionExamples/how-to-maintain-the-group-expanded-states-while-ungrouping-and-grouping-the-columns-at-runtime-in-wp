@@ -8,7 +8,7 @@ This example illustrates how to maintain the group expanded states while ungroup
 
 ```C#
 
-this.dataGrid.Loaded += DataGrid_Loaded;
+public Dictionary<string, bool> GroupStates = new Dictionary<string, bool>();
 
 public MainWindow()
 {
