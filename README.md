@@ -4,7 +4,7 @@
 
 This example illustrates how to maintain the group expanded states while ungrouping and grouping the columns at runtime in WPF DataGrid.
 
-[WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid) allows you to maintain the expanded state of the group while ungrouping and grouping the columns at runtime by handling the events SFDataGrid.View.CollectionChanged, SfDataGrid.GroupExpanded and SfDataGrid.GroupCollapsed.
+[WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid) allows you to maintain the expanded state of the group while ungrouping and grouping the columns at runtime by handling the events SfDataGrid.View.CollectionChanged, SfDataGrid.GroupExpanded and SfDataGrid.GroupCollapsed.
 
 ```C#
 
@@ -73,6 +73,8 @@ private void OnView_CollectionChanged(object sender, System.Collections.Speciali
 } 
 
 ```
+
+![Grouping](Grouping.gif)
 
 ## Requirements to run the demo 
 
