@@ -76,6 +76,8 @@ private void OnView_CollectionChanged(object sender, System.Collections.Speciali
 
 ![Grouping](Grouping.gif)
 
+KB article - [How to maintain the group expanded states while ungrouping and grouping the columns at runtime in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12660/how-to-maintain-the-group-expanded-states-while-ungrouping-and-grouping-the-columns-at)
+
 ## Requirements to run the demo 
 
 Visual Studio 2015 and above versions.
