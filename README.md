@@ -1,12 +1,8 @@
-# How to maintain the group expanded states while ungrouping and grouping the columns at runtime in WPF DataGrid (SfDataGrid)?
+# How to maintain the group expanded states while ungrouping and grouping the columns at runtime in WPF DataGrid?
 
-## About the sample
+In [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid) allows you to maintain the expanded state of the group while ungrouping and grouping the columns at runtime by handling the events [CollectionChanged](https://help.syncfusion.com/cr/wpf/Syncfusion.Data.CollectionViewAdv.html#Syncfusion_Data_CollectionViewAdv_CollectionChanged), [GroupExpanded](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.SfDataGrid.html#Syncfusion_UI_Xaml_Grid_SfDataGrid_GroupExpanded) and [GroupCollapsed](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.SfDataGrid.html#Syncfusion_UI_Xaml_Grid_SfDataGrid_GroupCollapsed).
 
-This example illustrates how to maintain the group expanded states while ungrouping and grouping the columns at runtime in WPF DataGrid.
-
-[WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid) allows you to maintain the expanded state of the group while ungrouping and grouping the columns at runtime by handling the events SfDataGrid.View.CollectionChanged, SfDataGrid.GroupExpanded and SfDataGrid.GroupCollapsed.
-
-```C#
+```csharp
 
 public Dictionary<string, bool> GroupStates = new Dictionary<string, bool>();
 
@@ -76,7 +72,7 @@ private void OnView_CollectionChanged(object sender, System.Collections.Speciali
 
 ![Grouping](Grouping.gif)
 
-KB article - [How to maintain the group expanded states while ungrouping and grouping the columns at runtime in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12660/how-to-maintain-the-group-expanded-states-while-ungrouping-and-grouping-the-columns-at)
+Take a moment to peruse the [WPF DataGrid - Grouping](https://help.syncfusion.com/wpf/datagrid/grouping) documentation, where you can find about grouping with code examples.
 
 ## Requirements to run the demo 
 
